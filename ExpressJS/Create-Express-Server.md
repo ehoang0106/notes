@@ -5,7 +5,9 @@
 4. Install the Express package.
 5. Write Server Application in index.js.
 6. Start server
-7. nodemon
+7. Nodemon
+
+
 
 # 1. Create directory
 
@@ -65,3 +67,10 @@ npm i -g nodemon
 
 Instead of stop and restart the server when we have an update on server.
 Use `nodemon index.js` when run the server.
+
+```
+nodemon index.js
+```
+
+#### Server should be able to handle "/" "/contact" and "/about"
+
