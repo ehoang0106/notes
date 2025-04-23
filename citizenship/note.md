@@ -25,6 +25,4 @@ Name of the speaker of the house representative:
 - Name of nation anthem: `The star spangled banner`
 - The house of U.S. Representative voting member: `435`
 - Chief Justice of the US: `John Robert`
-- 
-
 
