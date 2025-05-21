@@ -1,5 +1,9 @@
-Grant all privileges on mysql db:
+create a user and grant all the privileges to them:
 
-```mysql
-GRANT ALL PRIVILEGES ON mysql.* TO 'username'@'host';
+```sql
+CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
 ```
+
+
