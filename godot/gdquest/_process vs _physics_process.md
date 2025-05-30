@@ -1,5 +1,4 @@
 
-
 ## `_process(delta)`
 
 This function is called **every single frame** your game renders. How often it's called depends on how fast your game is running (your Frames Per Second or FPS).
