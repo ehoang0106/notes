@@ -5,3 +5,4 @@
 - [Azure Tables](https://learn.microsoft.com/en-us/azure/storage/tables/table-storage-overview): A NoSQL store for schemaless storage of structured data.
 - [Azure managed Disks](https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview): Block-level storage volumes for Azure VMs.
 - [Azure Container Storage](https://learn.microsoft.com/en-us/azure/storage/container-storage/container-storage-introduction): A volume management, deployment, and orchestration service built natively for containers.
+ 
