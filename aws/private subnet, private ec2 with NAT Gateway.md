@@ -1,3 +1,8 @@
+require:
+- 2 `subnets` one `public` and one `private`
+- `NAT Gateway`in the public subnet with EIP
+- 2 route table: 1 route table for public subnet with internet gateway, 1 route table for private with NAT Gateway
+- 
 
 | Item                 | Should Be                        |
 | -------------------- | -------------------------------- |
