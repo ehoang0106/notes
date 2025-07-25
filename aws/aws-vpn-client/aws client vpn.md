@@ -42,3 +42,33 @@ generate certificate for server and user
     cp pki/issued/user1.client.vpn.crt ~/client_vpn_certs/
     cp pki/private/user1.client.vpn.key ~/client_vpn_certs/
     ```
+
+- **Navigate to your certificates directory:**
+    
+    ```
+    cd ~/client_vpn_certs
+    ```
+    
+- **Import the server certificate:** Replace `your-aws-region` with your desired AWS region (e.g., `us-east-1`). Ensure you use the correct filename for your server certificate (e.g., `vpn.yourcompany.com.crt`).
+    
+    ```
+    aws acm import-certificate \
+        --certificate fileb://vpn.yourcompany.com.crt \
+        --private-key fileb://vpn.yourcompany.com.key \
+        --certificate-chain fileb://ca.crt \
+        --region your-aws-region
+    ```
+    
+    **Note:** Copy the `CertificateArn` from the output. You will need it in the next step.
+    
+- **Import the client certificate (optional but recommended for revocation):**
+    
+    ```
+    aws acm import-certificate \
+        --certificate fileb://user1.client.vpn.crt \
+        --private-key fileb://user1.client.vpn.key \
+        --certificate-chain fileb://ca.crt \
+        --region your-aws-region
+    ```
+    
+    **Note:** Copy the `CertificateArn` from the output.
