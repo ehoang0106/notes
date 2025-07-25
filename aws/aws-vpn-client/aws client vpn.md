@@ -53,10 +53,10 @@ generate certificate for server and user
     
     ```
     aws acm import-certificate \
-        --certificate fileb://vpn.yourcompany.com.crt \
-        --private-key fileb://vpn.yourcompany.com.key \
+        --certificate fileb://vpn.khoah.net.crt \
+        --private-key fileb://vpn.khoa.net.key \
         --certificate-chain fileb://ca.crt \
-        --region your-aws-region
+        --region us-west-1
     ```
     
     **Note:** Copy the `CertificateArn` from the output. You will need it in the next step.
@@ -68,7 +68,7 @@ generate certificate for server and user
         --certificate fileb://user1.client.vpn.crt \
         --private-key fileb://user1.client.vpn.key \
         --certificate-chain fileb://ca.crt \
-        --region your-aws-region
+        --region us-west-1
     ```
     
     **Note:** Copy the `CertificateArn` from the output.
