@@ -1,6 +1,6 @@
 ```bash
-icacls "nextwork-keypair.pem" /reset
-icacls "nextwork-keypair.pem" /grant:r "Enter your username:R"
-icacls "nextwork-keypair.pem" /inheritance:r
+icacls "your-kp-name" /reset
+icacls "your-kp-name" /grant:r "Enter your username:R"
+icacls "your-kp-name" /inheritance:r
 ```
 
