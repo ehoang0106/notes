@@ -29,7 +29,7 @@ Fill out the GitHub organization. Usually it is your github accunt ID or organiz
 
 GitHub repo and GitHub branch
 
-Create a custom policy or a existing aws permission. This is for permissions the role can do on AWS account
+Create a custom policy or a existing aws permission. This is for permissions the role can do on AWS account. *This step is important*
 
 Enter Role name and done
 
