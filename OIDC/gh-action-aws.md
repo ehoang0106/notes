@@ -79,3 +79,9 @@ jobs:
 `role-session-name`: the name of the role
 
 Done
+
+link to github instruction:
+```
+https://docs.github.com/en/actions/how-tos/secure-your-work/security-harden-deployments/oidc-in-aws
+```
+
