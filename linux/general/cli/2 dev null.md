@@ -32,8 +32,8 @@
   Why use it?
 
   It's useful in scripts or when you're not sure if a container exists:
-  - If the container exists → removes it silently ✅
-  - If the container doesn't exist → no error message shown ✅
+  - If the container exists → removes it silently 
+  - If the container doesn't exist → no error message shown 
 
   Example without 2>/dev/null:
 
@@ -50,4 +50,4 @@
   # If container doesn't exist → no error shown, just continues
 ```
 
-  This is why I used it before running the new container - to ensure any old container is removed first without showing errors! 🐳
+  This is why I used it before running the new container - to ensure any old container is removed first without showing errors! 
