@@ -55,6 +55,6 @@ enable service:
 ```bash
 sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
-sudo systemctl enable cloudflared-second
+1
 sudo systemctl start cloudflared-second
 ```
