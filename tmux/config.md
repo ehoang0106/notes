@@ -6,7 +6,7 @@ https://github.com/tmux-plugins/tpm
 
 then
 
-cd to `~/.config/lua/nvim/plugins/`
+cd to `~/.config/nvim/lua/plugins/`
 
 create a file name `nvim-tmux-navigator.lua`
 
