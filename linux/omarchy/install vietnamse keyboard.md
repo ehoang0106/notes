@@ -1,4 +1,4 @@
-
+1
 Install packages:
 
 ```bash
@@ -26,4 +26,4 @@ to configure fcitx5 run command:
 fcitx5-configtool
 ```
 
-Use `control` + `space` to switch input method
+Use `control` + `space` to switch input method1
