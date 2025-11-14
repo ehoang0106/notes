@@ -64,7 +64,6 @@ run '~/.tmux/plugins/tpm/tpm'
 
 ```
 
-
 then go to tmux to install plugin
 
 ```bash
@@ -84,4 +83,3 @@ edit `~/.config/nvim/lua/config/keymaps.lua`
 vim.keymap.set({ "n", "v" }, "<leader>v", ":vnew<CR>")
 vim.keymap.set({ "n", "v" }, "<leader>h", ":new<CR>")
 ```
-
