@@ -1,0 +1,4 @@
+```mysql
+DROP DATABASE IF EXISTS <NAME-OF_DATABASE>;
+```
+
