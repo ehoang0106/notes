@@ -22,4 +22,15 @@ output:
 ```bash
 Hello\nWorld
 ```
-- [ ] 
+
+
+it is applying to color as well. For example
+
+```bash
+RED='\033[0;31m'
+
+echo -e "${RED}Hello" #Output: Hello (with red color)
+
+echo "${RED}Hello" #Output: \033[0;31mHello
+```
+
